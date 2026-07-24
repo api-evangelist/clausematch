@@ -1,7 +1,27 @@
 aid: clausematch
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/clausematch.png
 name: Clausematch
-description: Clausematch is a company surfaced as a portfolio company of speedinvest and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Clausematch is a London-founded regulatory technology (RegTech) company providing
+  a cloud platform for policy and procedure management, regulatory change management, and
+  structured document authoring and collaboration for banks, insurers, and other regulated
+  financial institutions. Its tooling helps compliance teams draft, review, version, and
+  attest to policies while mapping regulatory obligations to internal controls. Clausematch
+  was acquired by Corlytics in 2024; the clausematch.com domain now 301-redirects to
+  corlytics.com. This profile was surfaced as a portfolio company of Speedinvest and added
+  to the API Evangelist network for enrichment. No public developer portal, API reference,
+  or machine-readable API specification was found during enrichment (the web surface is
+  WAF-protected and returns HTTP 403 to automated probes).
 url: https://raw.githubusercontent.com/api-evangelist/clausematch/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +29,18 @@ x-backed-by:
 - speedinvest
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-acquired-by: corlytics
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- RegTech
+- Compliance
+- Regulatory Change Management
+- Policy Management
+- Financial Services
+- GovTech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/clausematch-domain-security.yml
 - type: Website
   url: https://clausematch.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
