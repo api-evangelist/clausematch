@@ -52,7 +52,7 @@ tags:
 - Compliance
 - Regulatory Change Management
 - Policy Management
-- Financial-Services
+- Financial Services
 - GovTech
 tags_raw:
 - Company
@@ -62,6 +62,7 @@ tags_raw:
 - Policy Management
 - Financial Services
 - GovTech
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
